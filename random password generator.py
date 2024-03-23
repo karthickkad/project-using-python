@@ -33,7 +33,7 @@ def generate_password(length, use_special_chars, use_numbers):
 
     return password
 
-
+#main function
 if __name__ == '__main__':
     length, use_special_chars, use_numbers = userInput()
     generated_password = generate_password(length, use_special_chars, use_numbers)
